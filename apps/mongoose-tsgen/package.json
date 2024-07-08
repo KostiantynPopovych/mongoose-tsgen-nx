@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "mongoose-tsgen": "mtgen ./src/models --output ./src/.generated/mongoose",
+    "mongoose-tsgen-fix": "mtgen ./src/models --project ./tsconfig.mongoose-tsgen.json --output ./src/.generated/mongoose"
+  }
+}
